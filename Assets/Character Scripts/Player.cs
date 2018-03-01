@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
+    Controller2D controller;
+
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        controller = GetComponent<Controller2D>();
 	}
 }
