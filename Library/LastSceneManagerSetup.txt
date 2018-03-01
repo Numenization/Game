@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/InventoryTesting.unity
-  isLoaded: 0
-  isActive: 0
+- path: Assets/Scenes/ControlTesting.unity
+  isLoaded: 1
+  isActive: 1
